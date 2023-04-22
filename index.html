@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pac-man</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="./javavscript.js" defer></script>
+
+
+</head>
+
+<body onkeydown="startMove(event.key)">
+  <img style="  position: absolute;
+  top: 200px;
+  left: 200px;" onkeydown="moveCool(event.key)" id="coolGuy" src="./Images/coolGuy.png" alt="">
+  <img style="  position: absolute;
+  top: 20px;
+  left: 50px;" id="pacMan" src="./Images/pacman.png" alt="">
+  <div id="startContent">
+    <h4>To Start Game Press:</h4>
+    <div class="keyboardArrow">
+      <span>↑</span>
+      <span class="test"> ← &nbsp; ↓ &nbsp; → </span>
+    </div>
+  </div>
+</body>
+
+</html>
